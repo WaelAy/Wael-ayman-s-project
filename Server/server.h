@@ -44,10 +44,6 @@ EN_serverError_t isAmountAvailable(ST_terminalData_t* termData, ST_accountsDB_t*
 EN_serverError_t saveTransaction(ST_transaction_t* transData);
 void listSavedTransactions(void);
 
-static ST_accountsDB_t accountsDB[255] = { {2000.0,RUNNING, "8989374615436851"},{1000.0,BLOCKED,"5807007076043875"},
-                                    {3500.0,RUNNING,"8640215930259895"},{150000.0,BLOCKED,"8546201597530482"},
-                                    {250000.0,RUNNING,"5670231578964227"},{1500.2,BLOCKED,"7346452297364252"} };
-static ST_transaction_t transactionsDB[255] = {0};
-ST_accountsDB_t *accRef;
+
 
 #endif
