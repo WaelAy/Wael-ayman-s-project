@@ -1,4 +1,8 @@
-#include "server.h"
+#include "app.h"
+
+extern ST_accountsDB_t accountsDB[255];
+extern ST_accountsDB_t* accRef;
+
 void appStart(void) {
 	while (1)
 	{
